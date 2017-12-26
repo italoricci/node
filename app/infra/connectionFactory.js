@@ -10,7 +10,6 @@ function createDBConnection (){
 }
 
 // wrapper
-
 module.exports = function () {
     return createDBConnection();
 }
